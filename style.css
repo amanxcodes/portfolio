@@ -1,0 +1,171 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    font-size: 15px;
+    padding:0;
+    margin: 0;
+    background-color: #f4f4f4 ;
+}
+
+/* Globel */
+
+
+.container{
+    width: 80%;
+    margin: auto;
+     overflow: hidden; /*this means anything that is not in the div will not have scroll */
+} 
+/* header */
+header{
+    background: rgb(62, 60, 60);
+    color: #f4f4f4;
+    border-bottom: solid 5px orange ;
+    padding-top: 20px;
+    min-height: 70px;
+
+}
+header a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 16px;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+}
+header li{
+    display: inline;
+    padding: 10px 10px 100px 10px;
+}
+header .branding{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 25px;
+}
+header .branding h1{
+    margin: 0px ;
+    padding: 0px;
+}
+header .new , header  .current a {
+    color: orange;
+    font-weight: bold;
+}
+header a:hover{
+    color: orange;
+}
+
+.logo{
+    width: 4.5%;
+    float: left;
+}
+
+/* showcase */
+#showcase{
+    background: url('images/nature.jpg') no-repeat  0 -100px ;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+}
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+#showcase p{
+    font-size: 18px;
+}
+#showcase h1:hover{
+    color: orange;
+}
+span{
+    color: orange;
+}
+/* services */
+#services{
+    padding: 20px;
+    background:  rgb(62, 60, 60);
+    color: white;
+    min-height: 100px;
+}
+#services h2{
+    float: left;
+}
+#services form{
+    float: right ;
+    padding-top: 20px;
+
+}
+#services input[type='email']{
+width: 300px;
+height: 20px;
+border: solid 2px orange;
+padding: 5px;
+}
+
+
+/* button */
+.btn-1{
+    color: white;
+    background: orange;
+    border: none;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+/* maincontent */
+
+#main-content{
+    text-align: center;
+   
+}
+#main-content .box{
+    width: 30%;
+    float: left;
+}
+#main-content .box img{
+    width: 30%;
+}
+#owner{
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    background: orange;
+    color: white;
+}
+.main-logo{
+    width: 10%;
+    height: 20%;
+    margin-top: 10px;
+}
+.main-logo:hover{
+    color: orange;
+}
+
+/* lastchild and first chuld can be selected in following ways */
+/* .new1:last-child {
+color: pink
+} */
+
+
+/* responsive */
+@media(max-width:768px){
+    header .branding,
+    header nav,
+    header nav li,
+    #services,
+    #services h2,
+    #main-content .box{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .btn-1{
+    margin-top: 10px;
+        
+    }
+
+}
