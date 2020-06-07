@@ -84,6 +84,9 @@ header a:hover{
 #showcase h1:hover{
     color: orange;
 }
+input{
+    text-align: center;
+}
 span{
     color: orange;
 }
