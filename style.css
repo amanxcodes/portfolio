@@ -63,8 +63,12 @@ header a:hover{
 
 /* showcase */
 #showcase{
-    background: url('images/nature.jpg') no-repeat   ;
-    min-height: 400px;
+    background-image: url(images/nature.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
     text-align: center;
     color: white;
     
